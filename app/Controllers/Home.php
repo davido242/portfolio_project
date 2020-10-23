@@ -2,9 +2,14 @@
 
 class Home extends BaseController
 {
-	public function index()
+	public function help()
 	{
 		return view('welcome_message');
+	}
+
+	public function index()
+	{
+		return view('index');
 	}
 
 	//--------------------------------------------------------------------
