@@ -8,12 +8,12 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #666;
+  color: #100129;
   background: #f5f5f5;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #444;
+  color: #100129;
   overflow-x: hidden;
   position: relative;
 }
@@ -44,7 +44,7 @@ p {
 }
 .btn,
 a.btn {
-  background: #031b27;
+  background: #100129;
   color: #fff;
   padding: 8px 15px;
   -webkit-border-radius: 2px;
@@ -64,8 +64,7 @@ a.btn {
 }
 .btn:hover,
 a.btn:hover {
-  color: #fff;
-  background: #566f7c;
+  background: #421490;
 }
 #topcontrol {
   -webkit-transition: all 0.4s ease-in-out;
@@ -102,7 +101,7 @@ a.btn:hover {
   font-weight: normal;
 }
 .header {
-  background: #607D8B;
+  background: #8944ff;
   color: #fff;
 }
 .header a {
@@ -175,7 +174,7 @@ a.btn:hover {
   margin-bottom: 30px;
 }
 .header .intro {
-  background: #566f7c;
+  background: #260067;
   padding-top: 90px;
   padding-bottom: 60px;
   position: relative;
@@ -186,7 +185,7 @@ a.btn:hover {
   margin: 0 auto;
 }
 .header .contact-info {
-  background: #4b626d;
+  background: #1e044a;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 16px;
@@ -216,7 +215,7 @@ a.btn:hover {
   position: relative;
 }
 .page-nav-wrapper {
-  background: #031b27;
+  background: #100129;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -232,7 +231,7 @@ a.btn:hover {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #607D8B;
+  background: #200054;
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -300,7 +299,7 @@ a.btn:hover {
   text-align: center;
 }
 .timeline {
-  border-left: 3px solid #607D8B;
+  border-left: 3px solid #100129;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
@@ -331,7 +330,7 @@ a.btn:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  border: 3px solid #607D8B;
+  border: 3px solid #100129;
 }
 .timeline .item:after {
   content: "";
@@ -349,7 +348,7 @@ a.btn:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #607D8B;
+  background: #100129;
   z-index: 10;
 }
 .timeline .work-place {
@@ -376,7 +375,7 @@ a.btn:hover {
 }
 .timeline .job-meta .title {
   font-size: 18px;
-  color: #607D8B;
+  color: #200054;
 }
 .timeline .job-meta .time {
   color: #8a8a8a;
@@ -396,7 +395,7 @@ a.btn:hover {
 }
 .education-section .degree {
   font-size: 18px;
-  color: #607D8B;
+  color: #100129;
   margin-top: 0;
   margin-bottom: 0px;
 }
@@ -585,7 +584,7 @@ a.btn:hover {
   width: 100%;
 }
 .portfolio-section .item-inner {
-  background: #607D8B;
+  background: #100129;
   color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -601,7 +600,7 @@ a.btn:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 .portfolio-section .item-inner:hover {
-  background: #648291;
+  background: #100129;
 }
 .portfolio-section .item-inner:hover img {
   -webkit-opacity: 0.9;
@@ -663,7 +662,7 @@ a.btn:hover {
 }
 .additional-skills .service-list .fa,
 .contact-section .service-list .fa {
-  color: #607D8B;
+  color: #100129;
   padding-right: 8px;
 }
 .contact-section .social {
@@ -686,11 +685,13 @@ a.btn:hover {
 }
 .footer .container {
   padding: 30px;
-  color: #8a8a8a;
+  color: #fff;
   letter-spacing: 0.5px;
+  font-size: 10px;
+  background: #553588;
 }
 .footer .container a {
-  color: #8a8a8a;
+  color: #fff;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
@@ -950,7 +951,7 @@ a.btn:hover {
   color: #fff;
 }
 
-/*onlineMD styling*/
+/*onlineMD styling October, 2020*/
 
 .copyright {
   font-size: 1.5em;
@@ -970,7 +971,7 @@ a.btn:hover {
     border: none;
     font-weight: normal;
     outline: none;
-    background-color: red;
+    background-color: #200054;
     color: white;
     cursor: pointer;
      padding: 0px; 
@@ -980,3 +981,38 @@ a.btn:hover {
 #myBtn:hover {
   background-color: #fff;
 }
+
+.text-center{
+  background: 
+}
+
+/*styling for image motion*/
+ #myDIV {
+      -webkit-animation-name: mymove;
+      /* Chrome, Safari, Opera */
+      -webkit-animation-duration: 5s;
+      /* Chrome, Safari, Opera */
+      animation-name: mymove;
+      animation-duration: 3s;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes mymove {
+      from {
+        left: -400px;
+      }
+
+      to {
+        top: -100px;
+      }
+    }
+
+    @keyframes mymove {
+      from {
+        left: -400px;
+      }
+
+      to {
+        top: -100px;
+      }
+    }

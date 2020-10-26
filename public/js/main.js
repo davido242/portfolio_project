@@ -94,5 +94,20 @@ function scrollFunction() {
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  document.documentElement.scrollTop = 0, 800;
+
 }
+
+
+// script for image motion
+var x = document.getElementById("myDIV");
+
+    // Code for Chrome, Safari and Opera
+    x.addEventListener("webkitAnimationStart", myStartFunction);
+
+    // Standard syntax
+    x.addEventListener("animationstart", myStartFunction);
+
+    function myStartFunction(event) {
+      this.innerHTML = "The animation-name is: " + event.animationName;
+    }

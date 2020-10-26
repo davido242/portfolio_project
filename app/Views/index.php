@@ -37,7 +37,7 @@
 
     <div class="intro">
         <div class="container text-center">
-            <img class="profile-image" src="https://avatars3.githubusercontent.com/u/31432997?s=460&u=8f051683a1eefc1e7c94ee7cbab963448287726a&v=4" alt="Peter Umoren Image">
+            <img class="profile-image" id="myDIV" src="https://avatars3.githubusercontent.com/u/31432997?s=460&u=8f051683a1eefc1e7c94ee7cbab963448287726a&v=4" alt="Peter Umoren Image">
             <h1 class="name">Peter Umoren</h1>
             <div class="title">Web-Developer</div>
             <div class="profile">
@@ -75,7 +75,7 @@
 
 <div class="wrapper container">
     <section id="skills-section" class="skills-section section text-center">
-        <h2 class="section-title">Professional Skills</h2>
+        <h2 class="section-title" id="#skills-section">Professional Skills</h2>
         <div class="top-skills">
             <h3 class="subtitle">Programming Languages</h3>
             <div class="row">
