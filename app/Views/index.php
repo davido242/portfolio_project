@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Tatiana Nazarchuk - Resume and Portfolio</title>
+    <title>Peter Umoren - Resume and Portfolio</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Peter Umoren - Portfolio">
-    <link rel="shortcut icon" href="https://static.wixstatic.com/media/2e2a49_bd3a1599bc1b4265a01b2754b99b8536~mv2_d_5760_3840_s_4_2.jpeg/v1/crop/x_2703,y_43,w_2199,h_2205/fill/w_205,h_205,al_c,q_80,usm_0.66_1.00_0.01/AdobeStock_230407429.webp">
+    <meta name="description" content="Monday David S. - Portfolio">
+    <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/31432997?s=460&u=8f051683a1eefc1e7c94ee7cbab963448287726a&v=4">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css');?>">
@@ -42,7 +42,7 @@
             <div class="title">Web-Developer</div>
             <div class="profile">
                 <p>
-                    I have been working in Web-development for about 12 years and think this is a very interesting field<br />
+                    I have been working in Web-development for about 8 years and think this is a very interesting field<br />
                     If you want to look at projects which I developed please click on the "<a class="scrollto" href="#portfolio-section"><b>Portfolio</b></a>" link
                 </p>
             </div>
@@ -52,9 +52,9 @@
     <div class="contact-info">
         <div class="container text-center">
             <ul class="list-inline">
-                <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="mailto:someone@example.com">tanya.v.nazarchuk@gmail.com</a></li>
-                <li class="list-inline-item"><i class="fa fa-phone"></i> <a href="tel: 0123456789">+38 (096) 830-87-08</a></li>
-                <li class="website list-inline-item"><i class="fa fa-skype"></i><a href="#" target="_blank">tanya_nazarchyk</a></li>
+                <li class="email list-inline-item"><i class="fa fa-envelope"></i><a href="mailto:someone@example.com">ClientUserName@gmail.com</a></li>
+                <li class="list-inline-item"><i class="fa fa-phone"></i> <a href="tel: 08184426320">+234 (8184426320)</a></li>
+                <li class="website list-inline-item"><i class="fa fa-skype"></i><a href="#" target="_blank">peter_umoren</a></li>
             </ul>
         </div>
     </div>
