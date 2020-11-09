@@ -11,10 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css');?>">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -63,7 +59,7 @@
         <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
             <div class="container">
                 <ul id="page-nav" class="nav page-nav list-inline">
-                    <li class="nav-item"><a class="scrollto nav-link" href="#skills-section">Skills</a></li>
+                    <li class="nav-item"><a class="scrollto nav-link" href="<?php echo base_url('#skills-section');?>">Skills</a></li>
                     <li class="nav-item"><a class="scrollto nav-link" href="#experiences-section">Experience</a></li>
                     <li class="nav-item"><a class="scrollto nav-link" href="#education-section">Education</a></li>
                     <li class="nav-item"><a class="scrollto nav-link" href="#portfolio-section">Portfolio</a></li>
@@ -75,7 +71,7 @@
 
 <div class="wrapper container">
     <section id="skills-section" class="skills-section section text-center">
-        <h2 class="section-title" id="#skills-section">Professional Skills</h2>
+        <h2 class="section-title" id="skills-section">Professional Skills</h2>
         <div class="top-skills">
             <h3 class="subtitle">Programming Languages</h3>
             <div class="row">
@@ -164,85 +160,6 @@
             </p>
         </div>
     </section>
-
-    <!--section id="experiences-section" class="experiences-section section">
-        <h2 class="section-title">Work Experiences</h2>
-        <div class="timeline">
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">Since December 2015</div>
-                </div>
-                <div class="job-desc">
-                    <p>Team lead, system architector, PHP-development, Yii-development at Ukrainian company, "<a href="https://hire.itmaster-soft.com/" target="_blank">IT Master Soft Ltd</a>"</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">January 2013 - December 2015</div>
-                </div>
-                <div class="job-desc">
-                    <p>PHP-development, Zend-development, custom solutions developer at Norwegian company, "<a href="http://pingbull.no/" target="_blank">PingBull</a>"</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">November 2011 - January 2013</div>
-                </div>
-                <div class="job-desc">
-                    <p>PHP-developer, Java-developer, REST API-developer at American company, "<a href="https://www.designcontest.com/" target="_blank">DesignContest</a>"</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">May 2010 - November 2011</div>
-                </div>
-                <div class="job-desc">
-                    <p>The head of the Web-development department, project manager, PHP-developer at Austrian company, "MadeIT"</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">August 2008 - May 2010</div>
-                </div>
-                <div class="job-desc">
-                    <p>PHP-developer, HTML-coder, CMS/CMF-developer on freelance</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">June 2007 - August 2008</div>
-                </div>
-                <div class="job-desc">
-                    <p>PHP-developer at American company, "<a href="http://dreamsoft.us/" target="_blank">DreamSoft</a>"</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">February 2006 - June 2007</div>
-                </div>
-                <div class="job-desc">
-                    <p>Main PHP-developer, Java-developer, system designer, system architector at Russian company, "Creative"</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">September 2005 - February 2006</div>
-                </div>
-                <div class="job-desc">
-                    <p>Teacher at computer courses and Zaporozhye Electro Technical College: Internet technologies, PHP, Pascal, operating systems</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="job-meta">
-                    <div class="time-title">March 2005 - October 2005</div>
-                </div>
-                <div class="job-desc">
-                    <p>Java-developer, JSP-developer at Italian company, "Alessandro Patane s.r.l"</p>
-                </div>
-            </div>
-        </div>
-    </section-->
-
     <section id="experiences-section" class="experiences-section section">
         <h2 class="section-title">Work Experience</h2>
         <div class="timeline">
@@ -413,7 +330,7 @@
                             Lottery
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://lotto.fund/" target="_blank"></a> <!-- http://lotto.webphpdev.site/ -->
+                    <a class="link-mask" href="http://lotto.fund/" target="_blank"></a> 
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -543,7 +460,7 @@
                             OHSO.tv
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://ohso-tv.goldensoft.com.ua/" target="_blank"></a> <!-- http://ohso.tv/ -->
+                    <a class="link-mask" href="http://ohso-tv.goldensoft.com.ua/" target="_blank"></a> 
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -608,7 +525,7 @@
                             Magazine «MIG»
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://mig.goldensoft.com.ua/" target="_blank"></a> <!-- http://www.mig.com.ua/ -->
+                    <a class="link-mask" href="http://mig.goldensoft.com.ua/" target="_blank"></a>
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -621,7 +538,7 @@
                             Auto-class
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://avtoklas.kiev.ua/ -->
+                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> 
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -767,19 +684,6 @@
                     <a class="link-mask" href="http://wfilter.ru/" target="_blank"></a>
                 </div>
             </div>
-            <!--div class="item frontend col-lg-3 col-6">
-                <div class="item-inner">
-                    <figure class="figure">
-                        <img class="img-fluid" src="assets/images/portfolio/6.jpg" border="0" />
-                    </figure>
-                    <div class="content text-left">
-                        <h3 class="sub-title">
-                            Hydroleader
-                        </h3>
-                    </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://hydroleader.ru/ -- >
-                </div>
-            </div-->
             <div class="item frontend col-lg-3 col-6">
                 <div class="item-inner">
                     <figure class="figure">
@@ -790,7 +694,7 @@
                             Robots
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://robotecs.ru/ -->
+                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> 
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -803,7 +707,7 @@
                             Map.Zaporozhye
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://map.biz.ua/ -->
+                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> 
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -819,19 +723,6 @@
                     <a class="link-mask" href="http://corpus5.sunshine-soft.info/" target="_blank"></a>
                 </div>
             </div>
-            <!--div class="item frontend col-lg-3 col-6">
-                <div class="item-inner">
-                    <figure class="figure">
-                        <img class="img-fluid" src="assets/images/portfolio/3.jpg" border="0" />
-                    </figure>
-                    <div class="content text-left">
-                        <h3 class="sub-title">
-                            Magnárez
-                        </h3>
-                    </div>
-                    <a class="link-mask" href="http://magnares.ru/" target="_blank"></a>
-                </div>
-            </div-->
             <div class="item frontend col-lg-3 col-6">
                 <div class="item-inner">
                     <figure class="figure">
@@ -855,22 +746,9 @@
                             Dentist Terentyeva
                         </h3>
                     </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://terentyeva.com/ -->
+                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> 
                 </div>
             </div>
-            <!--div class="item frontend col-lg-3 col-6">
-                <div class="item-inner">
-                    <figure class="figure">
-                        <img class="img-fluid" src="assets/images/portfolio/4.jpg" border="0" />
-                    </figure>
-                    <div class="content text-left">
-                        <h3 class="sub-title">
-                            National Rottweiler Club
-                        </h3>
-                    </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://rottw.ru/ -- >
-                </div>
-            </div-->
             <div class="item frontend col-lg-3 col-6">
                 <div class="item-inner">
                     <figure class="figure">
@@ -882,19 +760,6 @@
                         </h3>
                     </div>
                     <a class="link-mask" href="http://aergroup.ru/" target="_blank"></a>
-                </div>
-            </div>
-            <!--div class="item frontend col-lg-3 col-6">
-                <div class="item-inner">
-                    <figure class="figure">
-                        <img class="img-fluid" src="assets/images/portfolio/13.jpg" border="0" />
-                    </figure>
-                    <div class="content text-left">
-                        <h3 class="sub-title">
-                            StroiOpTorg
-                        </h3>
-                    </div>
-                    <a class="link-mask" href="http://goldensoft.com.ua/" target="_blank"></a> <!-- http://stroioptorg.ru/ -- >
                 </div>
             </div>
             <div class="item frontend col-lg-3 col-6">
@@ -968,37 +833,6 @@
 
 </div>
 
-<footer class="footer text-center">
-    <div class="container">
-        <small class="copyright"><?php echo "&copy 2020 ";?><a href="/" target="_blank">Peter Umoren</a></small>
-    </div>
-</footer>
-
-<!-- online CDN -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<script type="text/javascript" src="<?php echo base_url('js/jquery_scrollto.js');?>"></script>
-<script type="text/javascript" src="<?php echo base_url('js/jquery.scrollTo.min.js');?>"></script>
-<script type="text/javascript" src="<?php echo base_url('js/jquery.easypiechart.min.js');?>"></script>
-<script type="text/javascript" src="<?php echo base_url('js/imagesloaded.pkgd.min.js');?>"></script>
-<script type="text/javascript" src="<?php echo base_url('js/isotope.pkgd.min.js');?>"></script>
-
-<script type="text/javascript" src="<?php echo base_url('js/main.js');?>"></script>
-
-
-
+<?php echo view('footer.php'); ?>
 </body>
 </html>
-
-
-<!--
-company portfolio:
-n-soft
-hotels - gostinica
-corpus5
-v.zp
-top-graphic
-музыкальный магазин
--->

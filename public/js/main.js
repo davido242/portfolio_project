@@ -9,7 +9,7 @@ $(document).ready(function() {
         //store hash
         var target = this.hash;
                 
-        e.preventDefault();
+        // e.preventDefault();
         
 		$('body').scrollTo(target, 800, {offset: -60, 'axis':'y'});
 		
